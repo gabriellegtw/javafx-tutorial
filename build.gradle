@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id 'application'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
-//    id 'org.openjfx.javafxplugin' version '0.0.12'
 }
 
 repositories {
@@ -34,8 +33,3 @@ shadowJar {
     archiveBaseName = "javafx-tutorial-duke"
     archiveClassifier = null
 }
-
-//javafx {
-//    version = "17.0.7"
-//    modules = [ 'javafx.controls', 'javafx.fxml' ]
-//}
